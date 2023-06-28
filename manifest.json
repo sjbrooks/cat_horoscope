@@ -1,0 +1,12 @@
+{
+  "name": "Cat horoscopes - get your daily cat themed horoscope in your new tab page",
+  "description": "Daily cat themed horoscope, just a tab away.",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "./index.html"
+  },
+  "browser_action": {
+    "default_icon": "./favicon-32x32.png"
+  }
+}
